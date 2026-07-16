@@ -133,7 +133,37 @@
 </div></div>
 </article>
 <!-- Sidebar / Lead Form -->
-<aside class="sidebar">
+<aside class="sidebar"><div class="lead-form-card sticky">
+<div class="form-header">
+<h3>Interested in Plots?</h3>
+<p>Get a free consultation and exclusive access to our premium properties.</p>
+</div>
+<form class="lead-form" id="leadForm">
+<div class="input-group">
+<label for="name">Full Name</label>
+<input id="name" name="name" placeholder="John Doe" required="" type="text"/>
+</div>
+<div class="input-group">
+<label for="phone">Contact Number</label>
+<input id="phone" name="phone" placeholder="+91 98765 43210" required="" type="tel"/>
+</div>
+<div class="input-group">
+<label for="email">Email Address</label>
+<input id="email" name="email" placeholder="john@example.com" required="" type="email"/>
+</div>
+<button class="btn-submit" type="submit">
+                        Get Details Now
+                        <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+</button>
+<p class="form-disclaimer">By submitting, you agree to our Terms &amp; Privacy Policy. No spam, ever.</p>
+</form>
+<!-- Success Message (Hidden by default) -->
+<div class="form-success hidden" id="formSuccess">
+<svg fill="none" height="48" stroke="#00d084" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="48"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<h4>Thank You!</h4>
+<p>Our real estate expert will contact you shortly.</p>
+</div>
+</div>
 <div class="sidebar-widgets">
 <div class="widget">
 <h4>Latest Posts</h4>
@@ -178,37 +208,7 @@
 </div>
 </div>
 </div>
-<div class="lead-form-card sticky">
-<div class="form-header">
-<h3>Interested in Plots?</h3>
-<p>Get a free consultation and exclusive access to our premium properties.</p>
-</div>
-<form class="lead-form" id="leadForm">
-<div class="input-group">
-<label for="name">Full Name</label>
-<input id="name" name="name" placeholder="John Doe" required="" type="text"/>
-</div>
-<div class="input-group">
-<label for="phone">Contact Number</label>
-<input id="phone" name="phone" placeholder="+91 98765 43210" required="" type="tel"/>
-</div>
-<div class="input-group">
-<label for="email">Email Address</label>
-<input id="email" name="email" placeholder="john@example.com" required="" type="email"/>
-</div>
-<button class="btn-submit" type="submit">
-                        Get Details Now
-                        <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-</button>
-<p class="form-disclaimer">By submitting, you agree to our Terms &amp; Privacy Policy. No spam, ever.</p>
-</form>
-<!-- Success Message (Hidden by default) -->
-<div class="form-success hidden" id="formSuccess">
-<svg fill="none" height="48" stroke="#00d084" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="48"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-<h4>Thank You!</h4>
-<p>Our real estate expert will contact you shortly.</p>
-</div>
-</div>
+
 </aside>
 </main>
 <footer class="footer">
